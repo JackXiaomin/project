@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace映射dao接口的全路径 -->
+<mapper namespace="com.cssl.dao.DeptDao">
+
+	<insert id="add">
+		insert into dept(dname) values(#{dname})
+	</insert>
+	
+	<delete id="del">
+		delete from dept where dno=#{dno}
+	</delete>
+	
+</mapper>
