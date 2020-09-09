@@ -46,7 +46,7 @@
 	<dependency>
 	    <groupId>org.hibernate</groupId>
 	    <artifactId>hibernate-validator</artifactId>
-	    <version>5.3.5.Final</version>
+	    <version>5.3.6.Final</version>
 	</dependency>
 	
 	<!--添加对jsp的支持,否则不能识别<% %>|JSTL|EL-->
